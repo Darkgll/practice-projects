@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.piano {
+    background-color: blanchedalmond;
+    margin: auto;
+    height: 300px;
+    width: 1100px;
+    border: 3px solid gray;
+    padding: 10px;
+    position: relative;
+}
+
+.piano-white {
+    margin: 15px 3px;
+    float: left;
+    height: 200px;
+    width: 50px;
+    background-color: white;
+}
+
+.piano-black {
+    color: white;
+    margin: 0 2px 0 -25px;
+    float: left;
+    height: 100px;
+    width: 20px;
+    background-color: black;
+    position: absolute;
+}
+
+.pressed {
+    border-color: honeydew;
+    background-color: gray;
+}
